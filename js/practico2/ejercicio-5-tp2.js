@@ -80,6 +80,8 @@ do {
                 E
                 break;
         }
+    } else {
+        alert("No pusiste un numero")
     }
-    
+
 } while (!(numero === NaN));
