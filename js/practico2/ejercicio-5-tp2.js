@@ -1,83 +1,82 @@
 // se pide un numero
 let numero = parseInt(prompt("Escribe un numero"))
 
-
+// se confirma el resto del numero
+let division = numero % 23;
 do {
 
     if (numero > 23) {
-        // se confirma el resto del numero
-        let division = numero % 23;
-    
+        
         // Casos segun el resto
         switch (division, numero) {
             case 1:
-                T
+                document.write("T")
                 break;
             case 2:
-                R
+                document.write("R")
                 break;
             case 3:
-                W
+                document.write("W")
                 break;
             case 4:
-                A
+                document.write("A")
                 break;
             case 5:
-                G
+                document.write("G")
                 break;
             case 6:
-                M
+                document.write("M")
                 break;
             case 7:
-                Y
+                document.write("Y")
                 break;
             case 8:
-                F
+                document.write("F")
                 break;
             case 9:
-                P
+                document.write("P")
                 break;
             case 10:
-                D
+                document.write("D")
                 break;
             case 11:
-                X
+                document.write("X")
                 break;
             case 12:
-                B
+                document.write("B")
                 break;
             case 13:
-                N
+                document.write("N")
                 break;
             case 14:
-                J
+                document.write("J")
                 break;
             case 15:
-                Z
+                document.write("Z")
                 break;
             case 16:
-                S
+                document.write("S")
                 break;
             case 17:
-                Q
+                document.write("Q")
                 break;
             case 18:
-                V
+                document.write("V")
                 break;
             case 19:
-                H
+                document.write("H")
                 break;
             case 20:
-                L
+                document.write("L")
                 break;
             case 21:
-                C
+                document.write("C")
                 break;
             case 22:
-                K
+                document.write("K")
                 break;
             case 23:
-                E
+                document.write("E")
                 break;
         }
     } else {
