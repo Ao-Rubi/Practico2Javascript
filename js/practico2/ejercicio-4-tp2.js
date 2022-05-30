@@ -4,7 +4,9 @@ do {
     if (isNaN(numero)) {
         alert("No pusiste un numero")
     }else {
-        let suma = suma + numero;
-        document.write(suma + numero)
+        let numeroGuardado = 0;
+        let total = numeroGuardado + numero
+        document.write(total)
+        numeroGuardado == numero
     }
 } while (confirm("Desea continuar?"));
